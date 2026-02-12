@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #e9ebee;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      width: 900px;
+      height: 500px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+
+    .left {
+      flex: 1;
+      background: #d8ecff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      font-weight: bold;
+      color: #1877f2;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f0f2f5;
+    }
+
+    .card {
+      background: white;
+      width: 360px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #1877f2;
+      margin-bottom: 20px;
+    }
+
+    .input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      border: 1px solid #dddfe2;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      background: #1877f2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .login-btn:hover {
+      background: #166fe5;
+    }
+
+    .link {
+      display: block;
+      margin: 12px 0;
+      font-size: 14px;
+      color: #1877f2;
+      text-decoration: none;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      margin: 15px 0;
+      color: #96999e;
+      font-size: 13px;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: #dadde1;
+      margin: 0 10px;
+    }
+
+    .create-btn {
+      background: #42b72a;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 12px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 70%;
+    }
+
+    .create-btn:hover {
+      background: #36a420;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="left">
+      Facebook
+    </div>
+
+    <div class="right">
+      <div class="card">
+        <div class="logo">Facebook</div>
+
+        <input class="input" type="text" placeholder="Email address or phone number">
+        <input class="input" type="password" placeholder="Password">
+
+        <button class="login-btn">Log in</button>
+
+        <a href="#" class="link">Forgotten account?</a>
+
+        <div class="divider">or</div>
+
+        <button class="create-btn">Create new account</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector(".login-btn").addEventListener("click", function () {
+      window.location.href = "error.html";
+}); const adminPassword = "123456"; const apiKey = "sk-abcdefg"; </script> </body> 4</html>
